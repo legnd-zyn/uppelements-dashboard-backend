@@ -1,6 +1,6 @@
 const express = require("express");
 const UserModel = require("./schemas/create-user-schema.js");
-const PostModel = require("./schemas/create-post-schema.js");
+const PostModel = require("./posts/schema/create-post-schema.js");
 const ITSolutionModel = require("./it-solutions/schemas/ITSolutionSchema.js");
 
 const router = express.Router();

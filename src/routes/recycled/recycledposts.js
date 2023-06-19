@@ -1,7 +1,7 @@
 const express = require("express");
-const postModel = require("../schemas/create-post-schema.js");
+const postModel = require("../posts/schema/create-post-schema");
 const UserModel = require("../schemas/create-user-schema.js");
-const RecycledPostModel = require("../schemas/recycled-post-schema.js");
+const RecycledPostModel = require("./schema/recycled-post-schema.js");
 const router = express.Router();
 
 ///post/recycledpost endpoint

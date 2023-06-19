@@ -1,10 +1,10 @@
 const express = require("express");
 const multer = require("multer");
-const PostModel = require("./schemas/create-post-schema.js");
-const UserModel = require("./schemas/create-user-schema.js");
-const RecycledPostModel = require("./schemas/recycled-post-schema.js");
+const PostModel = require("./schema/create-post-schema.js");
+const UserModel = require("../schemas/create-user-schema.js");
+const RecycledPostModel = require("../recycled/schema/recycled-post-schema.js");
 const crypto = require("crypto");
-const recycledPost = require("./recycled/recycledposts");
+const recycledPost = require("../recycled/recycledposts");
 
 const router = express.Router();
 
